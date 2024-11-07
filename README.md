@@ -6,6 +6,9 @@ A Raspberry Pi Pico library for PCF8575 I/O expander modules.
 
 A simple single-file c++ library written for the Raspberry Pi Pico (or any RP2040 board) to communicate with I/O expander modules based on the PCF8575 microchip.  
 
+> [!NOTE]
+> This is a single header file for ease of use in small hobby projects, but this is not best practice and the actual implementation should be placed in an accompanying `.cpp` file for use in larger or professional projects to reduce compile overhead.  
+
 ## Requirements
 
 #### The Raspberry Pi Pico SDK
